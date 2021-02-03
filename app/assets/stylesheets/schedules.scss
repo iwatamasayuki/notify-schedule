@@ -1,3 +1,42 @@
 // Place all the styles related to the schedules controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  font-size: 40px;
+}
+
+
+.prev-month {
+  margin: 10px;
+}
+
+.next-month {
+  margin: 10px;
+  text-align: right;
+}
+
+.week-days {
+  font-size: 40px;
+
+}
+
+.sunday {
+  padding-left: 45px;
+  padding-right: 45px;
+  color: red;
+}
+
+.saturday {
+  padding-left: 45px;
+  padding-right: 45px;
+  color: blue;
+}
+
+.week-day {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.day {
+  font-size: 40px;
+}
