@@ -12,7 +12,7 @@ class SchedulesController < ApplicationController
 
   def show
   end
-  
+
   def edit
   end
 
@@ -21,4 +21,7 @@ class SchedulesController < ApplicationController
 
   def destroy
   end
+
+  private
+  
 end
