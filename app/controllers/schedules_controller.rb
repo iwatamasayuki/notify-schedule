@@ -2,9 +2,11 @@ class SchedulesController < ApplicationController
 
   def index
     @schedules = Schedule.all
+    @today = Date.today
   end
 
   def new
+    @schedule = Schedule.new
   end
 
   def create
@@ -23,5 +25,8 @@ class SchedulesController < ApplicationController
   end
 
   private
-  
+  def this_manth
+    time = Time.now
+    puts time.strftime("%Y年%-m月")
+  end
 end
